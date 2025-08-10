@@ -388,7 +388,7 @@ export default function PrivacyPolicyPage() {
             <h5 className="font-semibold mt-2 mb-1">6.1.1 Analytics Services</h5>
             <span className="block mb-1">We utilize the following services to monitor and improve our platform:</span>
             <ul className="list-disc pl-6 mb-2">
-              <li>Google Tag Manager: For managing analytics and marketing tags</li>
+
               <li>Google Analytics: For user behavior analysis and service optimization</li>
               <li>MixPanel: For user interaction tracking and feature usage analysis</li>
               <li>Google BigQuery: For large-scale data analysis and reporting</li>

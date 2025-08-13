@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://color-analysis.pro'),
+  metadataBase: new URL('https://color-analysis-quiz.org'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://color-analysis.pro',
+    url: 'https://color-analysis-quiz.org',
     title: 'Color Analysis Pro | AI-Powered Seasonal Color Analysis',
     description: "Discover your optimal color palette through AI-powered seasonal color analysis. Determine your color season classification and receive a scientifically-based personal color palette in minutes.",
     siteName: 'Color Analysis Pro',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     google: process.env.GOOGLE_VERIFICATION_CODE,
   },
   alternates: {
-    canonical: "https://color-analysis.pro/",
+    canonical: "https://color-analysis-quiz.org/",
   },
 };
 
@@ -77,20 +77,20 @@ export default function RootLayout({
     "@type": "WebPage",
     "name": "Color Analysis Pro | AI-Powered Seasonal Color Analysis",
     "description": "Discover your optimal color palette through AI-powered seasonal color analysis. Determine your color season classification and receive a scientifically-based personal color palette in minutes.",
-    "url": "https://color-analysis.pro/",
+    "url": "https://color-analysis-quiz.org/",
     "inLanguage": "en",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Color Analysis Pro",
-      "url": "https://color-analysis.pro",
+      "url": "https://color-analysis-quiz.org",
       "description": "AI-powered seasonal color analysis and personal color palette discovery",
       "publisher": {
         "@type": "Organization",
         "name": "Color Analysis Pro",
-        "url": "https://color-analysis.pro",
+        "url": "https://color-analysis-quiz.org",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://color-analysis.pro/lovable-uploads/logo1.png",
+          "url": "https://color-analysis-quiz.org/lovable-uploads/logo1.png",
           "width": 64,
           "height": 64
         }
@@ -102,10 +102,10 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Color Analysis Pro",
-    "url": "https://color-analysis.pro",
+    "url": "https://color-analysis-quiz.org",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://color-analysis.pro/lovable-uploads/logo1.png",
+      "url": "https://color-analysis-quiz.org/lovable-uploads/logo1.png",
       "width": 64,
       "height": 64
     },
@@ -116,7 +116,7 @@ export default function RootLayout({
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "url": "https://color-analysis.pro/contact-us"
+      "url": "https://color-analysis-quiz.org/contact-us"
     },
     "foundingDate": "2024",
     "areaServed": "Worldwide",
